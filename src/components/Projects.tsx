@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
       tech: ['React.js', 'Zustand', 'Tailwind CSS', 'Node.js', 'Express.js','MongoDB',' Socket.IO',' JWT'],
       sourceCode: 'https://github.com/DhEeRaJ-WeB-DeV/MERN-ChatApp',
       liveWebsite: 'https://mern-chatapp-gshr.onrender.com',
-      image: '/Screenshot 2025-07-11 213447.png'
+      image: `${import.meta.env.BASE_URL}/Screenshot 2025-07-11 213447.png`
     },
     {
       title: 'A SIMPLE NOTES APPLICATION',
@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       tech: ['React.js', 'Django', 'Django REST Framework', 'CSS', 'Axios'],
       sourceCode: 'https://github.com/DhEeRaJ-WeB-DeV/Django_React',
       liveWebsite: null,
-      image: '/Screenshot 2025-07-11 215416.png'
+      image: `${import.meta.env.BASE_URL}Screenshot 2025-07-11 215416.png`
     },
     {
       title: 'E-COMMERCE ONLINE STORE',
@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
       tech: [' React.js', 'css'],
       sourceCode: 'https://github.com/DhEeRaJ-WeB-DeV/React-Tutorial-Projects/tree/main/OnlineStore',
       liveWebsite: null,
-      image: '/Screenshot 2025-07-11 213020.png'
+      image: `${import.meta.env.BASE_URL}Screenshot 2025-07-11 213020.png`
     },
     {
       title: 'Todo List',
@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
       tech: ['React.js', 'Tailwind CSS', 'TypeScript', 'Zustand'],
       sourceCode: 'https://github.com/DhEeRaJ-WeB-DeV/React-Tutorial-Projects/tree/main/zustand/Todolist',
       liveWebsite: null,
-      image: '/Screenshot 2025-07-11 212729.png'
+      image: `${import.meta.env.BASE_URL}Screenshot-2025-07-11-212729.png`
     },
     {
       title: 'Recipie App',
@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
       tech: ['React.js', 'Tailwind CSS', 'TypeScript', 'Zustand'],
       sourceCode: 'https://github.com/DhEeRaJ-WeB-DeV/React-Tutorial-Projects/tree/main/zustand/Recipie%20App',
       liveWebsite: null,
-      image: '\Screenshot 2025-07-11 212826.png'
+      image: `${import.meta.env.BASE_URL}Screenshot 2025-07-11 212826.png`
     },
     
   ];
