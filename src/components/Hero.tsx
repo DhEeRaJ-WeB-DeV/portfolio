@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <motion.a
-              href="https://drive.google.com/file/d/12mzIolLo0PHE0WcE6f0R9CVlpMUuTkEW/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/12ogFYqdCjuIkTryfGu8BQ8hPTPEaW9LT/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
               className={`flex items-center space-x-2 border ${
