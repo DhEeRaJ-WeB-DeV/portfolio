@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -10,6 +10,9 @@ import { ThemeProvider } from './contexts/ThemeContext';
 
 
 function App() {
+   useEffect(() => {
+    document.title = "Dheeraj Sure | Developer";
+  }, []);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
