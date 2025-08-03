@@ -44,7 +44,7 @@ const About: React.FC = () => {
                 isDark ? "text-gray-300" : "text-gray-600"
               } leading-relaxed text-center`}
             >
-              I'm a full-stack developer with a background in Robotics and AI,
+              I'm a software developer with a background in Robotics and AI,
               passionate about building scalable web apps and backend systems.
             </p>
 
@@ -53,24 +53,11 @@ const About: React.FC = () => {
                 isDark ? "text-gray-300" : "text-gray-600"
               } leading-relaxed text-center`}
             >
-              I enjoy designing clean architectures, working with microservices,
-              and using tools like Docker, Kafka, and Prometheus. I'm always
-              exploring new tech and love turning ideas into impactful products.{" "}
+              I enjoy writing clean, maintainable code and working with tools
+              like Docker and Prometheus for development and monitoring.
+              I'm always eager to explore new technologies and turn ideas into
+              real, impactful products.{" "}
             </p>
-
-            <div className="flex justify-center">
-              <motion.a
-                href="https://drive.google.com/file/d/12ogFYqdCjuIkTryfGu8BQ8hPTPEaW9LT/view?usp=drivesdk"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <ExternalLink size={20} />
-                <span>View Resume</span>
-              </motion.a>
-            </div>
           </motion.div>
         </div>
       </div>

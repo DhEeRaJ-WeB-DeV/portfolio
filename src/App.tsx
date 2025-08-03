@@ -10,9 +10,11 @@ import { ThemeProvider } from './contexts/ThemeContext';
 
 
 function App() {
+  
    useEffect(() => {
     document.title = "Dheeraj Sure | Developer";
   }, []);
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (

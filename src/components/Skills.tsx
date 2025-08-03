@@ -52,14 +52,13 @@ const skillCategories = [
     ]
   },
   {
-    title: 'Databases',
+    title: 'Databases & Caching',
     icon: <Database className="text-blue-700" size={32} />,
     description: 'Databases I use for storage and data management.',
     skills: [
       { name: 'PostgreSQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
       { name: 'MongoDB', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
       { name: 'Redis', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg' },
-      { name: 'Kafka', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg' }
     ]
   },
   {
